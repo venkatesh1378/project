@@ -1,0 +1,204 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="jquery-ui-1.13.1\jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1\jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="jquery-ui-1.13.1\jquery-ui.theme.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="{% static 'store/one.js'}"></script>
+    <style>
+        input[type="button"] {
+            background-color: orangered;
+            color: black;
+            border: solid black 3Spx;
+            width: 100%;
+            font-size: 30px;
+        }
+        
+        input[type="text"] {
+            background-color: white;
+            border: solid black 2px;
+            width: 100%;
+            font-size: 30px;
+        }
+        
+        input[type="radio"] {
+            height: 16px;
+            width: 16px;
+        }
+        
+        section {
+            background-color: aquamarine;
+        }
+        
+        h1 {
+            font-size: 100px;
+        }
+        
+        button {
+            size: 30px;
+            font-size: 25px;
+        }
+        
+        p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            margin-bottom: -5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid bg-primary  ">
+        <center>
+            <h2>HIRE ME</h2>
+        </center>
+        <p class=""> As,i have started my career,i don't have practical achievements,but i really want to pratical explore and experience my potential by delivering the best services to the company.it will honor to work with the company<br> As a web developer my skills
+            are
+            <br> 1.Html 5.0
+            <br> 2.css 3
+            <br> 3.bootstrap 5.0
+            <br> 4.javascript& basic knowledge typescript & ES6 and react(popular library of js)
+            <br> 5.jquery &jquery ui;<br>MY QUALITIES
+            <BR> problem solving ability<br> good communication skills<br> leadership qualities<br> long life learner<br> open-minded
+            <br> passionate
+            <br>
+            <b>MORESKILLS</b> <br>C <br>PYTHON(DJANGO for backend)<br>DATA STRUCTURES<br>SQL<br>i am CSE student.firstly i want to start my career as front end developer.
+            <br> i am a fresher and i staterd learning front-end technologies from 2021 by myself.i want to improve my skills and want to learn many new things that i didn't know. so i want to do internship or a job<br> i am really exicted to do internship
+            in offline(in hyderabad) or online .currently i am doing projects like clone the websites and new other projects soonly i will post in my github or in linkdn if any one is interested to hire me kindly contact to me(contact details are in contact
+            section).
+
+        </p><br><br>
+
+    </div>
+    <div class="container-fluid bg-secondary ">
+        <center>
+            <h2 class="">BASIC PROJECCTS BY JAVASCRIPT </h2>
+        </center>
+        <b><hr></b>
+
+
+        <h2>simple calculater by javascript</h2>
+        <center>
+            <table border="1">
+
+                <tr>
+                    <td colspan="3"><input type="text" id="result"></td>
+
+                    <td><input type="button" value="c" onclick="clr()"></td>
+
+                </tr>
+                <tr>
+
+                    <td><input type="button" value="1" onclick="view('1')" /></td>
+                    <td><input type="button" value="2" onclick="view('2')"></td>
+                    <td><input type="button" value="3" onclick="view('3')"></td>
+                    <td><input type="button" value="/" onclick="view('/')"></td>
+                </tr>
+                <tr>
+
+                    <td><input type="button" value="4" onclick="view('4')" /></td>
+                    <td><input type="button" value="5" onclick="view('5')" /></td>
+                    <td><input type="button" value="6" onclick="view('6')"></td>
+                    <td><input type="button" value="*" onclick="view('*')"></td>
+
+                </tr>
+                <tr>
+
+                    <td><input type="button" value="7" onclick="view('7')"></td>
+                    <td><input type="button" value="8" onclick="view('8')"></td>
+                    <td><input type="button" value="9" onclick="view('9')"></td>
+                    <td><input type="button" value="-" onclick="view('-')"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="." onclick="view('.')"></td>
+
+                    <td><input type="button" value="=" onclick="compute('=')"></td>
+                    <td><input type="button" value="0" onclick="view('0')"></td>
+                    <td><input type="button" value="+" onclick="view('+')"></td>
+                </tr>
+
+
+
+
+
+
+            </table><br><br>
+        </center>
+    </div>
+    <div class="container-fluid bg-info" id="go">
+        <h2>simple quiz by js</h2><br>
+        <b><h5>1. what is javascript engine for chrome</h5></b><br> <b>a)</b>
+        <input type="radio" name="1">chakra<br><br><b>b)</b>
+        <input type="radio" name="1">spidermonkey<br><br><b>c)</b>
+        <input type="radio" id="one" name="1">v8<br><br><b>d)</b>
+        <input type="radio" name="1">none of these<br><br>
+        <b><h5>2. ECMA stands for</h5></b><br><b>a)</b>
+        <input type="radio" name="2">european cooperation managing association<br><br><b>b)</b>
+        <input type="radio" id="" name="2">european commitee manufactures association<br><br><b>c)</b>
+        <input type="radio" name="2">european coordination maintaining association <br><br><b>d)</b>
+        <input type="radio" id="two" name="2">european computer manufacturing association<br><br>
+
+
+
+        <b><h5>3.BOOTSTRAP 5.0 switches to</h5></b><br><b>a)</b>
+        <input type="radio" id="three" name="3">javascript<br><br><b>b)</b>
+        <input type="radio" name="3">jquery<br><br><b>c)</b>
+        <input type="radio" name="3">php<br><br>
+        <b>d)</b>
+        <input type="radio" name="3">none of these<br><br>
+
+        <b><h5>4. In which year html was introduced</h5></b><br> <b>a)</b>
+        <input type="radio" name="4">1999<br><br><b>b)</b>
+        <input type="radio" id="four" value="" name="4">1994<br><br><b>c)</b>
+        <input type="radio" id="" value="" name="4">1995<br><br><b>d)</b>
+        <input type="radio" name="4">1996<br><br>
+
+
+        <b><h5>5. which of the following is not a type of css</h5></b><br> <b>a)</b>
+        <input type="radio" id="" name="5">inline<br><br><b>b)</b>
+        <input type="radio" id="five" name="5">exterior<br><br><b>c)</b>
+        <input type="radio" name="5">internal<br><br><b>d)</b>
+        <input type="radio" name="5">external<br><br>
+        <button type="button" class="btn btn-warning mb-3" onclick="check()">SUBMIT</button>
+
+    </div>
+
+
+    <section>
+        <center>
+            <h2>Stopwatch</h2>
+            <p class="sss">
+                <h1><span id="seconds">00</span>:<span id="tens">00</span></h1>
+            </p>
+            <button class="btn btn-info ms-5 mb-3" id="button-start">Start</button>
+            <button class="btn btn-success ms-5 mb-3" id="button-stop">Stop</button>
+            <button class="btn btn-primary ms-5 mb-3" id="button-reset">Reset</button>
+        </center>
+    </section>
+    <div class="container-fluid bg-info" id="date">
+        <center>
+            <h2>calendar by using jquery UI</h2><br>
+            <div id="myid"></div>
+
+        </center>
+    </div><br>
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="jquery-ui-1.13.1\external\jquery\jquery.js"></script>
+<script src="jquery-ui-1.13.1\jquery-ui.min.js"></script>
+<script src="one.js"></script>
+
+</html>
