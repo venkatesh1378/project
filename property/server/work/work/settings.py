@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-w)^q363-(w4$)l9c=-fm@)a50%&9bv=e_3=6l%83+thu3pw_(5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["postgres://yaswirlr:sDGTkbtHFvThl4O0nYqMdO3w4pLJ6UxW@satao.db.elephantsql.com/yaswirlr"]
 
 
 # Application definition
@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'work.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database',
-        'USER':'postgres',
-        'PASSWORD':'1234',
-        'HOST':'localhost',
+        'NAME': 'databaseconnection',
+        'USER':'yaswirlr',
+        'PASSWORD':'sDGTkbtHFvThl4O0nYqMdO3w4pLJ6UxW',
+        'HOST':'satao.db.elephantsql.com',
         
     }
 }
