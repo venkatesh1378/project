@@ -88,10 +88,10 @@ WSGI_APPLICATION = 'work.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database',
-        'USER':'postgres',
-        'PASSWORD':'1234',
-        'HOST':'localhost',
+        'NAME': 'mydatabase',
+        'USER':'Venkatesh',
+        'PASSWORD':'Venkat@123',
+        'HOST':'postgresql-88429-0.cloudclusters.net',
         
     }
 }
